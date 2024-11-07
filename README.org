@@ -1,0 +1,43 @@
+#+TITLE: NT Government Housing Maintenance Recording app for the Walangeri Ngumpinku Aboriginal Corporation
+#+AUTHOR: Anthony Beckett
+#+AUTHOR: Aakarsh Singh
+
+** Description
+
+This is a React Native application designed with Android devices in mind. It was built at the behest of the [[https://walangeri.com.au][Walangeri Ngumpinku Aboriginal Corporation]].
+
+The Walangeri Corporation approached us in the hope of solving an issue they regularly ran into. Namely, issues with recording and keeping track of housing maintenance tasks. This application seeks to be a solution to this problem.
+
+It does this by essentially presenting a form for users to fill out when reporting faults. The form consists of:
+
+- An image one may attach or take from within the application of the reported fault.
+- A name one may attach for the fault
+- Lot/Address information
+- Type of job (/carpentry, etc/)
+- Urgency of the job
+- Any additional notes
+
+** How to use
+
+*** NOTE: You need the MONGODB_URI link, a PORT variable and a SECRET variable in a .env file in the backend code. You are welcome to create a free MongoDB account and link your own MongoDB database or you can ask the developers for their variables. You also need to change the urls in the services folder on the frontend code to your IP Address (e.g.: http://YOUR_IP_ADDRESS_HERE:3001/api/login)
+
+1. First, please clone the backend code at [[https://github.com/aakarshsingh1217/Walangeri-Backend]]
+2. Then, clone this frontend code
+3. Download Android Studio and use the Medium_Phone_API_TiramisuPrivacySandbox and start running the emulator
+4. Run an npm install command in the roots of both the frontend and backend code
+5. run the 'npm run dev' command in the backend code root
+6. run the 'npm start' command in the frontend code root, then enter the character 'a' to have expo build the app and run on the emulator
+
+** Rights
+
+All rights belong to the Walangeri Ngumpinku Aboriginal Corporation. Permission has been sought and approved for making this repository public, but it remains proprietary software owned by the Walangeri Ngumpinku Aboriginal Corporation. Any use of this software by third-parties must be approved by the aforementioned corporation.
+
+** Credit
+
+Designed and developed by:
+
+Aakarsh Singh (Full-Stack Developer)
+- LinkedIn: [[https://www.linkedin.com/in/aakarshsingh678/]]
+
+Anthony Beckett (Project Manager; Software Engineer)
+- LinkedIn: [[https://linkedin.com/in/anthony-beckett]]
